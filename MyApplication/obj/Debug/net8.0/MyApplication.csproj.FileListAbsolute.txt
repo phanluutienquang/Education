@@ -1,0 +1,15 @@
+/home/quangpc/Data/Education/MyEducation/MyApplication/bin/Debug/net8.0/MyApplication.deps.json
+/home/quangpc/Data/Education/MyEducation/MyApplication/bin/Debug/net8.0/MyApplication.dll
+/home/quangpc/Data/Education/MyEducation/MyApplication/bin/Debug/net8.0/MyApplication.pdb
+/home/quangpc/Data/Education/MyEducation/MyApplication/bin/Debug/net8.0/MyDomain.dll
+/home/quangpc/Data/Education/MyEducation/MyApplication/bin/Debug/net8.0/MyDomain.pdb
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/MyApplication.csproj.AssemblyReference.cache
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/MyApplication.GeneratedMSBuildEditorConfig.editorconfig
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/MyApplication.AssemblyInfoInputs.cache
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/MyApplication.AssemblyInfo.cs
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/MyApplication.csproj.CoreCompileInputs.cache
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/MyApplication.csproj.CopyComplete
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/MyApplication.dll
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/refint/MyApplication.dll
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/MyApplication.pdb
+/home/quangpc/Data/Education/MyEducation/MyApplication/obj/Debug/net8.0/ref/MyApplication.dll

@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/quangpc/Data/Education/MyEducation/MyApplication/MyApplication.csproj": {}
+  },
+  "projects": {
+    "/home/quangpc/Data/Education/MyEducation/MyApplication/MyApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/quangpc/Data/Education/MyEducation/MyApplication/MyApplication.csproj",
+        "projectName": "MyApplication",
+        "projectPath": "/home/quangpc/Data/Education/MyEducation/MyApplication/MyApplication.csproj",
+        "packagesPath": "/home/quangpc/.nuget/packages/",
+        "outputPath": "/home/quangpc/Data/Education/MyEducation/MyApplication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/quangpc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj": {
+                "projectPath": "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj",
+        "projectName": "MyDomain",
+        "projectPath": "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj",
+        "packagesPath": "/home/quangpc/.nuget/packages/",
+        "outputPath": "/home/quangpc/Data/Education/MyEducation/MyDomain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/quangpc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
