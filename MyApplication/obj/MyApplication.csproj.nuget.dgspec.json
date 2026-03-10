@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/quangpc/Data/Education/MyEducation/MyApplication/MyApplication.csproj": {}
+    "/home/quangpc/Data/MyEducation/Education/MyApplication/MyApplication.csproj": {}
   },
   "projects": {
-    "/home/quangpc/Data/Education/MyEducation/MyApplication/MyApplication.csproj": {
+    "/home/quangpc/Data/MyEducation/Education/MyApplication/MyApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/quangpc/Data/Education/MyEducation/MyApplication/MyApplication.csproj",
+        "projectUniqueName": "/home/quangpc/Data/MyEducation/Education/MyApplication/MyApplication.csproj",
         "projectName": "MyApplication",
-        "projectPath": "/home/quangpc/Data/Education/MyEducation/MyApplication/MyApplication.csproj",
+        "projectPath": "/home/quangpc/Data/MyEducation/Education/MyApplication/MyApplication.csproj",
         "packagesPath": "/home/quangpc/.nuget/packages/",
-        "outputPath": "/home/quangpc/Data/Education/MyEducation/MyApplication/obj/",
+        "outputPath": "/home/quangpc/Data/MyEducation/Education/MyApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/quangpc/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj": {
-                "projectPath": "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj"
+              "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj": {
+                "projectPath": "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj"
               }
             }
           }
@@ -41,6 +41,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,14 +75,14 @@
         }
       }
     },
-    "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj": {
+    "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj",
+        "projectUniqueName": "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj",
         "projectName": "MyDomain",
-        "projectPath": "/home/quangpc/Data/Education/MyEducation/MyDomain/MyDomain.csproj",
+        "projectPath": "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj",
         "packagesPath": "/home/quangpc/.nuget/packages/",
-        "outputPath": "/home/quangpc/Data/Education/MyEducation/MyDomain/obj/",
+        "outputPath": "/home/quangpc/Data/MyEducation/Education/MyDomain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/quangpc/.nuget/NuGet/NuGet.Config"

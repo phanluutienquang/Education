@@ -1241,11 +1241,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/quangpc/Data/Education/MyEducation/MyApi/MyApi.csproj",
+      "projectUniqueName": "/home/quangpc/Data/MyEducation/Education/MyApi/MyApi.csproj",
       "projectName": "MyApi",
-      "projectPath": "/home/quangpc/Data/Education/MyEducation/MyApi/MyApi.csproj",
+      "projectPath": "/home/quangpc/Data/MyEducation/Education/MyApi/MyApi.csproj",
       "packagesPath": "/home/quangpc/.nuget/packages/",
-      "outputPath": "/home/quangpc/Data/Education/MyEducation/MyApi/obj/",
+      "outputPath": "/home/quangpc/Data/MyEducation/Education/MyApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/quangpc/.nuget/NuGet/NuGet.Config"
@@ -1260,8 +1260,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/quangpc/Data/Education/MyEducation/MyInfra/MyInfra.csproj": {
-              "projectPath": "/home/quangpc/Data/Education/MyEducation/MyInfra/MyInfra.csproj"
+            "/home/quangpc/Data/MyEducation/Education/MyInfra/MyInfra.csproj": {
+              "projectPath": "/home/quangpc/Data/MyEducation/Education/MyInfra/MyInfra.csproj"
             }
           }
         }

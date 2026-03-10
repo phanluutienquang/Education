@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vUPxo+I1grZWlalCRzv3U3sDvlgA8OhplffZCecVo5FKb9cn6gh33PQqUZLhLpJObUlfi7ToX7wRbUB0yuwoYw==",
+  "dgSpecHash": "9qErH1mbg3W9q0Z48DEaZqQT5rUblb0ADwtiaXd3WY9PMlF5dVtLfI2GJETE33MiVGvV4axKgD6+QRuoBuRsSA==",
   "success": true,
-  "projectFilePath": "/home/quangpc/Data/Education/MyEducation/MyApi/MyApi.csproj",
+  "projectFilePath": "/home/quangpc/Data/MyEducation/Education/MyApi/MyApi.csproj",
   "expectedPackageFiles": [
     "/home/quangpc/.nuget/packages/microsoft.aspnetcore.openapi/8.0.24/microsoft.aspnetcore.openapi.8.0.24.nupkg.sha512",
     "/home/quangpc/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
