@@ -41,6 +41,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -110,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -180,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
