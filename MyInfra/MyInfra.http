@@ -1,0 +1,6 @@
+@MyInfra_HostAddress = http://localhost:5270
+
+GET {{MyInfra_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
