@@ -1,17 +1,25 @@
 
-using MyEducation.Application.Interfaces.ManageUser;
+using MyEducation.MyApplication.Interfaces.ManageUser;
+using MyEducation.MyApplication.Interfaces.Common;
+using MyEducation.MyApplication.Interfaces.Graph;
+using MyEducation.MyApplication.Models;
+using MyEducation.MyDomain.Entities.Users;
 using Microsoft.AspNetCore.Mvc;
-using MyEducation.Domain.Entities;
 
 [Route("api/[controller]")]
 [ApiController]
 public class UserController : ControllerBase
 {
     private readonly IUserProfileRepository _userProfileRepository;
+    private readonly IUserClaims _userClaim;
+    private readonly IGraphService _graphService;
 
-    public UserController(IUserProfileRepository userProfileRepository)
+    public UserController(IUserProfileRepository userProfileRepository, IUserClaims userClaim, 
+    IGraphService graphService)
     {
         _userProfileRepository = userProfileRepository;
+        _userClaim = userClaim;
+        _graphService = graphService;
     }
 
     [HttpGet("{id}")]
@@ -43,9 +51,17 @@ public class UserController : ControllerBase
         existingProfile.FirstName = updatedProfile.FirstName;
         existingProfile.LastName = updatedProfile.LastName;
         existingProfile.Email = updatedProfile.Email;
-        existingProfile.DateOfBirth = updatedProfile.DateOfBirth;
 
         await _userProfileRepository.UpdateUserProfile(existingProfile);
         return NoContent();
     }
+
+        [HttpGet("b2c-users")]
+        public async Task<ActionResult<List<AdB2CUserModel>>> GetB2CUsers()
+        {
+            var users = await _graphService.GetADB2CUsersAsync();
+            return Ok(users);
+        }
+
+        
 }
