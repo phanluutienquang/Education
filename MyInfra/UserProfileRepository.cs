@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MyEducation.Domain.Entities;
-using MyEducation.Application.Interfaces.ManageUser;
+using MyEducation.MyDomain.Entities.Users;
+using MyEducation.MyApplication.Interfaces.ManageUser;
 using System.Threading.Tasks;
 
 namespace MyEducation.Infra;
@@ -23,5 +23,20 @@ public class UserProfileRepository : IUserProfileRepository
     {
         _context.UserProfiles.Update(userProfile);
         await _context.SaveChangesAsync();
+    }
+
+    public async Task UpdateUserProfilePicture(int userId, string pictureUrl)
+    {
+        var user = await _context.UserProfiles.FindAsync(userId);
+        if (user != null)
+        {
+            // Update profile picture logic here
+            await _context.SaveChangesAsync();
+        }
+    }
+
+    public async Task<UserProfile?> GetUserInfoAsync(int userId)
+    {
+        return await _context.UserProfiles.FindAsync(userId);
     }
 }

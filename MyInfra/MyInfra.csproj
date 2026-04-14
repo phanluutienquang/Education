@@ -6,12 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="10.0.5" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\MyApplication\MyApplication.csproj" />
     <ProjectReference Include="..\MyDomain\MyDomain.csproj" />
+    <ProjectReference Include="..\MyIdentity\MyIdentity.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
 using AutoMapper;
-using MyEducation.Domain.Entities;
-using MyEducation.Application.DTOs; 
+using MyEducation.MyDomain.Entities.Learning;
+using MyEducation.MyApplication.DTOs;
 
-namespace MyEducation.Application.Mapping
+namespace MyEducation.MyApplication.Mapping
 {
     public class MappingProfile : Profile
     {
