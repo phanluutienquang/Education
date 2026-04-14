@@ -42,6 +42,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.24, )"
@@ -59,6 +63,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.17.0, )"
             }
           },
           "imports": [
@@ -130,9 +138,29 @@
               "target": "Package",
               "version": "[12.1.1, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.17.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.17.0, )"
             }
           },
           "imports": [
@@ -208,6 +236,85 @@
         }
       }
     },
+    "/home/quangpc/Data/MyEducation/Education/MyIdentity/MyIdentity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/quangpc/Data/MyEducation/Education/MyIdentity/MyIdentity.csproj",
+        "projectName": "MyIdentity",
+        "projectPath": "/home/quangpc/Data/MyEducation/Education/MyIdentity/MyIdentity.csproj",
+        "packagesPath": "/home/quangpc/.nuget/packages/",
+        "outputPath": "/home/quangpc/Data/MyEducation/Education/MyIdentity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/quangpc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj": {
+                "projectPath": "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/quangpc/Data/MyEducation/Education/MyInfra/MyInfra.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -235,6 +342,9 @@
               },
               "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj": {
                 "projectPath": "/home/quangpc/Data/MyEducation/Education/MyDomain/MyDomain.csproj"
+              },
+              "/home/quangpc/Data/MyEducation/Education/MyIdentity/MyIdentity.csproj": {
+                "projectPath": "/home/quangpc/Data/MyEducation/Education/MyIdentity/MyIdentity.csproj"
               }
             }
           }
@@ -252,6 +362,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[10.0.5, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

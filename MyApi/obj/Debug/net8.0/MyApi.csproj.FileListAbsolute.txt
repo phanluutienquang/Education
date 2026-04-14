@@ -166,3 +166,13 @@
 /home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/StackExchange.Redis.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/MyIdentity.dll
+/home/quangpc/Data/MyEducation/Education/MyApi/bin/Debug/net8.0/MyIdentity.pdb

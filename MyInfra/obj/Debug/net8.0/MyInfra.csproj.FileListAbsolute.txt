@@ -33,3 +33,5 @@
 /home/quangpc/Data/MyEducation/Education/MyInfra/obj/Debug/net8.0/refint/MyInfra.dll
 /home/quangpc/Data/MyEducation/Education/MyInfra/obj/Debug/net8.0/MyInfra.pdb
 /home/quangpc/Data/MyEducation/Education/MyInfra/obj/Debug/net8.0/ref/MyInfra.dll
+/home/quangpc/Data/MyEducation/Education/MyInfra/bin/Debug/net8.0/MyIdentity.dll
+/home/quangpc/Data/MyEducation/Education/MyInfra/bin/Debug/net8.0/MyIdentity.pdb
